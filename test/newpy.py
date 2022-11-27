@@ -151,12 +151,11 @@ def computeGCD(x, y):
     return gcd 
 
 # Python code to demonstrate naive 
-# method to compute gcd ( recursion )
-def hcfnaive(a,b): 
-    if(b==0): 
-        return a 
-    else: 
-        return hcfnaive(b,a%b) 
+# method to compute gcd ( Euclidean algo ) 
+def computeGCD(x, y): 
+   while(y): 
+       x, y = y, x % y 
+   return x 
 
 
 
