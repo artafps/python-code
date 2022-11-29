@@ -12,7 +12,11 @@ python code
 ## oop 
 ###---cercule.py
 ## test
+
 ###--- 1pythonqsort.py
+
 ###--- factoril.py
+
 ###--- new_function_isprimelist.py
+
 ###--- newpy.py
