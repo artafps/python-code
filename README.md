@@ -10,13 +10,9 @@ python code
 ###---khayampaskal_artafallahpoor.py
 ###---tomnumber_artafallahpoor.py
 ## oop 
-###---cercule.py
+### ---cercule.py
 ## test
-
-###--- 1pythonqsort.py
-
-###--- factoril.py
-
-###--- new_function_isprimelist.py
-
-###--- newpy.py
+### --- 1pythonqsort.py
+### --- factoril.py
+### --- new_function_isprimelist.py
+### --- newpy.py
