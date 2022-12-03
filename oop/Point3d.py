@@ -9,7 +9,7 @@ class point3d:
     #end constractor
     def __str__(self):
         return f"({self.x},{self.y},{self.z})"
-    def __add__(selp, p):
+    def __add__(self , p):
         return point3d(self.x+p.x,self.y+p.y,self.z+p.z)
     def __mul__(self, p):
         return point3d(self.x-p.x,self.y-p.y,self.z-p.z)
