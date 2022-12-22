@@ -26,11 +26,13 @@ files:
 ## oop 
 ```
 files:
->>> cercule.py
-
+>>> cercule.py کلاس دایره
+>>> Point2d.py کلاس نفطه دو بعدی
+>>> Point3d.py کلاس نقطه سه بعدی
 ```
 ## test
 ```
+more code کدهای بیشتر
 files:
 >>> 1pythonqsort.py
 >>> factoril.py
