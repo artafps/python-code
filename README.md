@@ -3,9 +3,9 @@
 ```
 files:
 
->>> Equilateral triangle_artafallahpoor.py دنباله فیبوناچی
+>>> Equilateral triangle_artafallahpoor.py مثلث متساوی‌الساقین 
 >>> evenandodd_artafallahpoor.py زوج و فرد
->>> wp-personal-data-file-dWsIMmgIgHV7XLtLfMaUHTeptwIKiOGX.py مثلث متساوی‌الساقین
+>>> wp-personal-data-file-dWsIMmgIgHV7XLtLfMaUHTeptwIKiOGX.py  دنباله فیبوناچی
 ```
 ## 2 project programmer
 ```
