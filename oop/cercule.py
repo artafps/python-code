@@ -80,3 +80,6 @@ class cercule:
         return 2*3.14*self.radius
     def areaCercule(self):
         return 3.14* (self.radius**2)
+    def draw(self,screen):
+        pygame.draw.circle(screen,(125,125,125),self.__c.getx(),self.__c.gety(),self.__r)
+       
