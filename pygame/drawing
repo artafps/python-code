@@ -1,0 +1,50 @@
+import pygame # pygame library
+
+pygame.init()  # initialize pygame
+screen = pygame.display.set_mode((550,555)) # set screen size
+clock = pygame.time.Clock()     # set clock
+done = False 
+w1 , h1 = pygame.display.get_surface().get_size()
+w , h = pygame.display.get_surface().get_size()
+n=5
+w/=n
+h/=n
+originx=0
+originy=0
+f=0
+list2 = []
+
+
+for i in range(n):
+            originx=0
+            for i in range(n):
+                if originy<h1 and originx < w1:
+                    print(f)
+                    if f == 255:
+                        list2.append({"color":(f,f,f), "ox":originx,"oy":originy,"w":w,"h":h})
+                        f=0
+                    else:
+                        list2.append({"color":(f,f,f), "ox":originx,"oy":originy,"w":w,"h":h})
+                        f=255
+                originx+=w
+            if n%2 ==0:
+                if  f == 255:
+                    f=0
+                else:
+                    f=255
+            originy+=h
+while not done:
+    for event in pygame.event.get(): # get event
+        if event.type == pygame.QUIT: # if event is quit
+            done = True   
+        if event.type == pygame.KEYDOWN and event.key == pygame.K_ESCAPE: # if event is keydown and key is escape
+            done = True
+    
+    screen.fill((255, 255, 255)) # set screen color
+    
+    for i in list2:
+        pygame.draw.rect(screen, i["color"], pygame.Rect(i["ox"],i["oy"],i["w"],i["h"]))
+    
+            
+    pygame.display.flip() # update screen
+    clock.tick(60) # set fps
